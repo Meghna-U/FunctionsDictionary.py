@@ -6,8 +6,6 @@ def most_frequent(st):
             d[i]+=1
         else:
             d[i]=1
-    from collections import Counter
-    Counter('abracadabra').most_common()
     return d;
 p=most_frequent(s)
 for j in sorted(p,key=p.get,reverse=True):
